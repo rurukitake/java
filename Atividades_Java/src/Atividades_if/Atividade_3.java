@@ -9,19 +9,29 @@ public class Atividade_3 {
 
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.println("Digite o primeiro numero");
-		int num_1 = sc.nextInt();
+		int multiplo = 0;
+		int divisor = 0;
+		int aux = 0;
 		
-		System.out.println("Digite o segundo numero");
-		int num_2 = sc.nextInt();
+		System.out.println("* Números Multiplos *\n");
 		
-		if(num_1 % num_2 == 0) {
-			
-			System.out.println("o numero " +num_1+ " e multiplo do numero " +num_2 );
-		} else{
-			
-			System.out.println("o numero nao e multiplo");
+		System.out.print("Insira o primeiro número Inteiro: ");
+		multiplo = sc.nextInt();
+		System.out.println("");
+		
+		System.out.print("Insira o segundo número Inteiro: ");
+		divisor = sc.nextInt();
+		System.out.println("");
+		
+		aux = (multiplo / divisor);
+		
+		if(multiplo % divisor == 0) {
+			System.out.println("O Número " + multiplo + " é multiplo de "+ aux);
+		} else {
+			System.out.println("O Número "+ multiplo + " não é multiplo de "+aux);
 		}
+		
+		sc.close();
 			
 		
 	}

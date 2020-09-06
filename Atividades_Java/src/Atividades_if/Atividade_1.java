@@ -21,6 +21,7 @@ public class Atividade_1 {
 			System.out.println("numero positivo");
 		}
 		
+		sc.close();
 
 	}
 

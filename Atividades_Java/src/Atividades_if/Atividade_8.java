@@ -33,7 +33,7 @@ public class Atividade_8 {
 			salario = salario - (imposto_1 + imposto_2);
 			System.out.println("o valor descontado de impostos e de: " +salario);
 			
-		}else if(salario > 4501 && salario >= 4501){
+		}else if(salario >= 4501 ){
 			imposto_1 = (float) (4500 * 0.28);
 			imposto_2 = (float) (1500 * 0.18);
 			imposto_3 = (float) (1000 * 0.08);
@@ -41,6 +41,7 @@ public class Atividade_8 {
 			System.out.println("o valor descontado de impostos e de: " +salario);
 		}
 		
+		sc.close();
 	}
 
 }

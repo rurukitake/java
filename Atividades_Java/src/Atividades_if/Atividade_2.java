@@ -22,6 +22,7 @@ public class Atividade_2 {
 			System.out.println("o numero " +numero+ " e impar");
 		}
 		
+		sc.close();
 	}
 
 }
