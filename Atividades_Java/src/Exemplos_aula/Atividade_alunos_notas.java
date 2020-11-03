@@ -32,12 +32,14 @@ public class Atividade_alunos_notas {
 		
 		
 		if (aluno.nota_final() < 60.0) {
+			
 			System.out.println("Aluno REPROVADO ");
 			System.out.printf("Faltou %.2f pontos para ser aprovado %n", aluno.faltar_pontos());
 			
-			
 		}else {
+			
 			System.out.println("Parabens - APROVADO ");
+			
 		}
 		
 		obj.close();
